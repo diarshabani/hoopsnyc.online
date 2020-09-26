@@ -18,7 +18,7 @@ $.ajax(settings).done(function (response) {
   }
   $('#parks').append("Searching from: latitude - " + latitude + ", longitude - " + longitude + "<br>" + "Basketball Courts near current location:" + "<br>"+"     ");
   for(var i = 0; i < response.addresses.length; i++){
-      $('#parks').append(response.addresses[i].placeLabel + "<br>");
+      $('#parks').append( i+1 +". "+ response.addresses[i].placeLabel + "<br>");
   }
 });
 
