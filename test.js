@@ -10,7 +10,7 @@ var settings = {
 $.ajax(settings).done(function (response) {
   console.log(response);
   for(var i = 0; i < response.addresses.length; i++){
-  	$('#parks').append(response.addresses[i].countryFlag + "<br>");
+  	$('#parks').append(response.addresses[i].placeLabel + "<br>");
   	var park = response.addresses[i].placeLabel;
   	console.log(park);
   }
