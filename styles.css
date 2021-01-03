@@ -1,41 +1,23 @@
+li {
+	color: white;
+	display: inline-block; 
+	padding: 1%;
+	text-align: center;
+}
+
+dr
+{
+  left: 0px;
+  top: 0px;
+}
+nav li a{
+	color: white;
+}
+
 /*Adding a black background to the navagation tool bar */
 .topnav {
-  background: gray;
-  display:flex;
-  justify-content: space-around;
-  align-content: center;
-  min-height: 8vh;
-  height: 25%;
-  width: 100%;
-  top:0%;
-
-}
-
-#logo img{
-  width: 300px;
-  height:300px;
-  position: absolute;
-  top:-3%;
-  left:.48%;
-}
-
-.nav-links{
-  display:flex;
-  justify-content: space-around;
-  width:55%;
-
-}
-
-.nav-links li{
-  list-style: none;
-}
-
-.nav-links a{
-  color: #f17c58;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-weight:bold;
-  font-size: 25px;
+	background: black
+	
 }
 
 .image {
@@ -47,50 +29,6 @@
   position: absolute;
   left: 0%;
 }
-
-#content img { /*profile picture*/
-  position: absolute;
-  top: 7%;
-  left:78%;
-  height: 125px;
-  width: 125px;
-  border-radius: 90%;
-}
-
-#slideA img {
-  position: absolute;
-  display:inline;
-  top: 35%;
-  left: 0%;
-  height: 370px;
-}
-
-#slideB img {
-  position: absolute;
-  display:inline;
-  top: 35%;
-  left: 33%;
-  height: 370px;
-}
-
-#slideC img {
-  position: absolute;
-  display:inline;
-  top: 35%;
-  left: 66%;
-  height: 370px;
-}
-
-.logInBox{
-  width: 320px;
-  height: 120px;
-  color: #fff;
-  top: 8%;
-  left: 94%;
-  position : absolute;
-  transform: translate(-50%, -50%);
-}
-
 
 /* Style the links inside the navigation bar 
 .topnav a {
@@ -115,67 +53,38 @@
 }
 
 */
-.burger{
-  display:none;
-}
-.burger div{
-  width:25px;
-  height:5px;
-  margin:5px;
-  background-color: black;
+
+
+
+#content img {
+  position: absolute;
+  top: 75px;
+  right: 125px;
+  height: 125px;
+  width: 125px;
 }
 
-@media screen and (max-width:1024px){
-  .nav-links{
-    display:flex;
-    justify-content: space-around;
-    width:80%;
-  }
+#slideA img {
+  position: absolute;
+  display:inline;
+  top: 250px;
+  left: 20px;
+  height: 350px;
 }
 
-@media screen and (max-width:768px){
-  .topnav {
-    background: gray;
-    display:flex;
-    justify-content: space-around;
-    align-content: center;
-    min-height: 8vh;
-    height: 22%;
-    width: 100%;
-    top:0%;
-  
-  }
-  .nav-links{
-    position:absolute;
-    right:0px;
-    height: 92vh;
-    top:20vh;
-  }
-  #logo img{
-    width: 130px;
-    height:130px;
-    position: absolute;
-    top:5%;
-    left:1.5%;
-  }
-  #content img { /*profile picture*/
-    position: absolute;
-    top: 7%;
-    left:78%;
-    height: 100px;
-    width: 100px;
-    border-radius: 90%;
-  }
-  .nav-links li{
-    list-style: none;
-  }
-  
-  .nav-links a{
-    color: lightsalmon;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight:bold;
-    font-size: 14px;
-  }
-    
+#slideB img {
+  position: absolute;
+  display:inline;
+  top: 250px;
+  left: 700px;
+  height: 350px;
 }
+
+#slideC img {
+  position: absolute;
+  display:inline;
+  top: 250px;
+  left: 1400px;
+  height: 350px;
+}
+
