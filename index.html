@@ -1,100 +1,41 @@
+<html>
 <head>
 	<link rel="stylesheet" type="text/css" href="./styles.css">
 
-</head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="test.js"></script>
-<script>
-  	function changeBodyBg(color){
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="test.js"></script>
+	<script>
+		function changeBodyBg(color){
 		document.body.style.background = color;
- 	}
-</script>
-
-<style>
-	h2 { width: 100%;
-		 height: 100%;
-		 }
-</style>
-
-
-
-<!----
-<div id="content">
-    <img src="prof.png"/>
-</div>
--->
-
-
-
-
-
-
-<!-- <img src="prof.png" alt="prof" width="150" height="150" position="absolute" top="0px" right="0px"> -->
-
-<nav class="topnav">
-		<div id="logo">
-			<img src="logo.png" />
-		</div>
-
-		<div id="content"> 
-			<img src="prof.png"/>
-		</div>
-		
-		<div class="logInBox">
-			<h1>Login Here</h1>	
-			<form>
-				<p>Username</p>
-				<input type="text" name="" placeholder="Enter Username">
-				<p>Password</p>
-				<input type="text" name="" placeholder="Enter Password">
-				<input type="submit" name="" value="Login">
-			</form>
-		
-		</div>
-	<ul class = "nav-links">
-			<li><a href="Home"> Home </a></li>
-			<li><a href="news"> News </a></li>
-			<li><a href="contact"> Contact </a></li>
-			<li><a href="invites"> Invites </a></li>
-			<li><a href="host"> Host </a></li>
-			<li><a href="about"> About </a></li>
-	</ul>
-	<div class="burger">
-		<div class ="line 1"></div>
-		<div class ="line 2"></div>
-		<div class ="line 3"></div>
-	</div>
-</nav>
-
-
-
-<div id="parks">
-	<style>
-		body {
-			background-color: white;
-
 		}
-</style>
-	<div id="slideA">
-		<img src="matchhistory.PNG" />
-	</div>
+	</script>
+</head>
 
-	<div id="slideB" >
-		<img src="calendar.png" />
-	</div>
+<body>
+	<nav class="topnav">
+		<img src="logo.png" class="logo"> 
+		<a href="home"> Home </a>
+		<a href="news"> News </a>
+		<a href="contact"> Contact </a>
+		<a href="invites"> Invites </a>
+		<a href="host"> Host </a>
+		<a href="about"> About </a>
+		<img src="prof.png" class="prof">
+		<form>
+			<h1>Login Here</h1>
+			<p>Username</p>
+			<input type="text" name="" placeholder="Enter Username">
+			<p>Password</p>
+			<input type="text" name="" placeholder="Enter Password">
+			<input type="submit" name="" value="Login">
+		</form>
 
-	<div id="slideC">
-		<img src="events.PNG" />
-	</div>
-</div>	
+		<div class="burger">
+			<div class="line 1"></div>
+			<div class="line 2"></div>
+			<div class="line 3"></div>
+		</div>
+	</nav>
 
-
-
-
-
-
-
-<!-- 	<button type="button" onclick="changeBodyBg('yellow');">Yellow</button>
-	<button type="button" onclick="changeBodyBg('lime');">Lime</button>
-	<button type="button" onclick="changeBodyBg('orange');">Orange</button> -->
-
+</body>
+</html>
